@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color:blanchedalmond;
@@ -5,6 +8,12 @@ body {
 }
 a {
     text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+    padding: 6px;
+    margin: 10px;
+    background-color: blueviolet;
 }
 ul {
     list-style-type: circle;
@@ -15,4 +24,12 @@ ul {
 }
 .steps {
     text-align: left;
+}
+a:hover{
+    background-color: pink;
+}
+.button {
+    display: inline-flex;
+    margin: 2px;
+    
 }
